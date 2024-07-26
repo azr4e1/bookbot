@@ -1,5 +1,8 @@
+import sys
+
+
 def main():
-    path = "books/frankenstein.txt"
+    path = sys.argv[1]
     pprint(path)
 
 

@@ -24,7 +24,7 @@ def count_chars(book):
 
 
 def get_text(path):
-    with open("./books/frankenstein.txt") as f:
+    with open(path) as f:
         return f.read()
 
 
